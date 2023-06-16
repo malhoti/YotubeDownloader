@@ -38,7 +38,7 @@ def DownloadAudio():
     print(mp4_file)
     base, ext = os.path.splitext(mp4_file)
     mp3_file = base + '.mp3'
-    #MP4ToMP3(mp4_file,mp3_file)
+    MP4ToMP3(mp4_file,mp3_file)
     os.rename(mp4_file, mp3_file)
     
     # result of success
